@@ -1,1 +1,1 @@
-# git-workshop
+# USDC Git workshop
