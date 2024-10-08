@@ -22,7 +22,19 @@ In the owner dropdown, select your own GitHub username. You can keep the "Copy t
 This creates your own personal copy of the git-workshop repo on your GitHub account. Your changes on your forked repo will only be reflected in your personal GitHub account's version of the git-workshop code. Think of it as making your own copy of a Google doc. Your changes on your created copy will not change the original Google doc you copied.
 
 ## 2. Publish a change directly to main branch
+### A. Update analysis_standards.md
+
+### B. Commit your changes to analysis_standards.md
+
+### C. Push your changes to main
 
 ## 3. Publish a change from a branch off main
+### A. Create a new branch off main
+
+### B. Update script.md
+
+### C. Commit your changes to script.md
+
+### D. Push your changes to your feature branch
 
 ## 4. Create a pull request from your change branch to main
