@@ -21,7 +21,12 @@ In the owner dropdown, select your own GitHub username. You can keep the "Copy t
 
 This creates your own personal copy of the git-workshop repo on your GitHub account. Your changes on your forked repo will only be reflected in your personal GitHub account's version of the git-workshop code. Think of it as making your own copy of a Google doc. Your changes on your created copy will not change the original Google doc you copied.
 
-## 2. Publish a change directly to main branch
+## 2. Create a commit and publish a change directly to the main branch
+The goal here is to familiarize ourselves with the commit and push mechanisms. When you are finished making edits to a file, the next step is to "commit" your changes. You can think of a commit as a photo snapshot of this project at a specific point in time. You can always refer to previous "commits" in your project's git timeline if you need to refer back to specific changes. 
+
+You can create as many commits as you'd like, but if you want to publish these commits to GitHub you the next step is to "push" your changes. You can think of pushing a change as having a Google doc stored locally on your computer. After you've made some changes and you want to share these with your time, you'd upload the Google doc to Google Drive where its hosted online for others to view.
+
+
 ### A. Update analysis_standards.md
 
 ### B. Commit your changes to analysis_standards.md
