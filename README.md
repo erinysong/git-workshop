@@ -47,7 +47,18 @@ In the commit message input, provide a short but descriptive message about your 
 ![Screenshot (258)](https://github.com/user-attachments/assets/5bfea91e-85e4-4a5f-a140-dc3555667b69)
 
 ## 3. Publish a change from a branch off main
-### A. Create a new branch off main
+In the previous exercise we practiced committing new changes and pushing them directly to the `main` branch. For many projects it is common to treat the `main` branch as the production version which is used by live users. As a result, it is best practice to not commit changes directly to the `main` branch as to not accidentaly introduce breaking changes.
+
+To solve this problem, we can create our own branches and work on our changes there. This allows us to add new changes in an isolated environment which does not impact live users or other team members. 
+
+To create a new branch on GitHub, we'll need to go back to the main page. If you're working from your forked repository, clicking the "Code" tab at the top of the page will take you here.
+
+After doing so, you'll want to find and click the "1 branch" button.
+
+![Screenshot (261)](https://github.com/user-attachments/assets/66d93fe2-fb09-404e-b2de-8107aba17a1e)
+
+
+### Create a new branch off main
 
 ### B. Update script.md
 
