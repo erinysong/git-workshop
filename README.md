@@ -24,11 +24,11 @@ This creates your own personal copy of the git-workshop repo on your GitHub acco
 ## 2. Create a commit and publish a change directly to the main branch
 The goal here is to familiarize ourselves with the commit and push mechanisms. When you are finished making edits to a file, the next step is to "commit" your changes. You can think of a commit as a photo snapshot of this project at a specific point in time. You can always refer to previous "commits" in your project's git timeline if you need to refer back to specific changes. 
 
-You can create as many commits as you'd like, but if you want to publish these commits to GitHub you the next step is to "push" your changes. You can think of pushing a change as having a Google doc stored locally on your computer. After you've made some changes and you want to share these with your time, you'd upload the Google doc to Google Drive where its hosted online for others to view.
+You can create as many commits as you'd like, but if you want to publish these commits to GitHub you the next step is to "push" your changes. You can think of pushing a change as having a Google doc stored locally on your computer. After you've made some changes and you want to share these with your team, you'd upload the Google doc to Google Drive where its hosted online for others to view.
 
 
 ### Update analysis_standards.md
-Open the (analysis_standards.md)[https://github.com/erinysong/git-workshop/blob/main/analysis_standards.md] file.
+Open the [analysis_standards.md](https://github.com/erinysong/git-workshop/blob/main/analysis_standards.md) file.
 
 At the top right of the page you'll see a pencil icon, click it.
 
