@@ -51,14 +51,24 @@ In the previous exercise we practiced committing new changes and pushing them di
 
 To solve this problem, we can create our own branches and work on our changes there. This allows us to add new changes in an isolated environment which does not impact live users or other team members. 
 
+### Create a new branch off main
+
 To create a new branch on GitHub, we'll need to go back to the main page. If you're working from your forked repository, clicking the "Code" tab at the top of the page will take you here.
 
 After doing so, you'll want to find and click the "1 branch" button.
 
 ![Screenshot (261)](https://github.com/user-attachments/assets/66d93fe2-fb09-404e-b2de-8107aba17a1e)
 
+Next, you'll want to click the "New branch" button at the top right. This will open a modal with options for adding a "New branch name" and specifying a branch.
 
-### Create a new branch off main
+Set the branch name to anything you'd like. 
+For the source branch:
+- The first dropdown specifies which repository, keep this as the default which is set to your forked repository.
+- The second dropdown specifies the source branch, or in other words the branch you're making a copy of. Keep this as the default which is set to the `main` branch.
+
+Click the "Create new branch" button. 
+
+![Screenshot (265)](https://github.com/user-attachments/assets/1fb4e340-c453-4596-96b6-5bf7de3e91ad)
 
 ### B. Update script.md
 
