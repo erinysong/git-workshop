@@ -59,7 +59,7 @@ After doing so, you'll want to find and click the "1 branch" button.
 
 ![Screenshot (261)](https://github.com/user-attachments/assets/66d93fe2-fb09-404e-b2de-8107aba17a1e)
 
-Next, you'll want to click the "New branch" button at the top right. This will open a modal with options for adding a "New branch name" and specifying a branch.
+Next, you'll want to click the "New branch" button at the top right. This will open a modal with options for adding a "New branch name" and specifying the source of a branch.
 
 Set the branch name to anything you'd like. 
 For the source branch:
@@ -70,10 +70,40 @@ Click the "Create new branch" button.
 
 ![Screenshot (265)](https://github.com/user-attachments/assets/1fb4e340-c453-4596-96b6-5bf7de3e91ad)
 
-### B. Update script.md
+Under "Your branches", you should now see the new branch. 
+![Screenshot (267)](https://github.com/user-attachments/assets/7e28e184-373f-4721-b1c5-90f7f2bfdbac)
 
-### C. Commit your changes to script.md
+Hover over and click the branch you created, in our example above this was `branch-1` but click the branch with the name you chose. After doing so, this will redirect you to the home page of your GitHub repository.
 
-### D. Push your changes to your feature branch
+![Screenshot (269)](https://github.com/user-attachments/assets/e53f4570-a7e9-4c6d-9638-f3bdb1bfc3be)
+
+Once you're at the home page of your GitHub repository, the key difference to take note of is dropdown button for "Switching branches/tags". You'll notice your newly created branch is selected instead of `main`. You now have a carbon copy of the `main` branch where you can make your own isolated changes.
+![Screenshot (271)](https://github.com/user-attachments/assets/afc1d51c-6c0e-4516-8934-cbb89603f685)
+
+Open the script.md file. Before we making any changes, take note of the URL at the top of your browser. 
+
+The URL path should be similar to the following: https://github.com/<your-username>/git-workshop/blob/<your-new-branch-name>/script.md.
+
+Notice how <your-new-branch-name is prepended before script.md. This indicates you're viewing the the version of script.md stored on <your-new-branch-name>.
+
+Try changing <your-new-branch-name> to main and notice how the branch you're on changes. Open a new tab and set the URL in your browser to the following (be sure to change <your-username> to your GitHub username):
+https://github.com/<your-username>/git-workshop/blob/main/script.md
+
+### Update script.md
+Before we continue, check that you're working in the branch we created in the previous exercise. The URL at the top of your browser should say:
+https://github.com/<your-username>/git-workshop/tree/<your-branch-name>
+
+Open the script.md file. Like we did in a previous file, click the pencil icon at the top right of the page to edit the file. 
+
+You can either make your own custom changes to the file or copy/paste our sample code snippet below into script.md:
+```
+def print_name(name):
+  print(f`Your name is ${name}`)
+```
+
+### Commit your changes to script.md and push your changes to your feature branch
+Now, let's take what we practiced before in the previous exercises. After you've made your changes, click the "Commit changes" button at the top right of the page. 
+
+Add a short but descriptive commit message in the modal that pops up, then ensure `Commit directly to the <your-branch-name> branch` is selected. Then click "Commit changes".
 
 ## 4. Create a pull request from your change branch to main
