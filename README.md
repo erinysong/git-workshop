@@ -1,10 +1,10 @@
 # USDC Git workshop
 
-Welcome to USDC's Git workshop repository! This workshop aims to teach the following:
+Welcome to USDC's Git workshop repository! Our goal by the end of the workshop is that participants can:
 
-- Learning outcome #1
-- Learning outcome #2
-- Learning outcome #3
+- Understand the concept of version control. Understand Git and GitHub as tools to track and manage version history.
+- Comfortably use some of the core features of Git (commits, forking, branches).
+- Use GitHub as a collaborative tool to manage project changes and communicate with project teammates.
 
 Prerequisites for this workshop: 
 
