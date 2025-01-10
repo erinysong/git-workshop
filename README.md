@@ -11,7 +11,7 @@ Prerequisites for this workshop:
 Feel free to complete the activities in this repository at whatever own order and pace feels right for you. We have included instructions below for optional guidance.
 
 ## 1. Create your own fork of this repository
-Create a fork of the git-workshop repository (which can also be referred to as a "repo") using the Fork button on the upper right corner of this repo page.
+Create a fork of the git-workshop repository (you may sometimes see repository shortened to "repo") using the Fork button on the upper right corner of this repo page.
 
   <img width="1247" alt="image" src="https://github.com/user-attachments/assets/9d4a3231-e075-4459-8903-2e289f09cdb8">
 
